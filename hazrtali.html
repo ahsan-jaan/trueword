@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/02e9a03270.js"></script>
+    <title>TrueWords</title>
+    <script type="text/javascript">
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+
+    </script>
+    <style>
+        .bg-dark1 {
+            background-color: #2d1c12;
+        }
+
+        .logoimage {
+            margin-top: 60px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.4)), url(image/backwall.jpg);
+            text-align: center;
+
+        }
+
+        .heading {
+            color: rgb(206, 83, 11);
+
+        }
+
+        .col-md-5 {
+            padding: 0px;
+        }
+        .col-md-5  img{
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+        .text1 {
+            font-size: 2em;
+            color: white;
+
+        }
+
+        .pera1 {
+            color: white;
+
+        }
+
+        .nextbt {
+            float: right;
+            font-size: 1.5em;
+        }
+
+        .urdu {
+            text-align: center;
+        }
+        .english{
+            text-align: center; 
+        }
+
+        .ddbt {
+            float: right;
+            color: rgb(7, 170, 42);
+        }
+
+        .icons {
+            color: rgb(10, 66, 63);
+        }
+
+        .icons a :hover {
+            color: black;
+        }
+
+        .btn-info {
+            background-color: rgb(10, 66, 63);
+        }
+        .card{
+            border: 1px solid rgb(0 0 0 / 68%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark1">
+                <a class="navbar-brand" href="index.html"><img src="image/logo.png" height="40px" alt="..."></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Books
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Poetry</a>
+                                <a class="dropdown-item" href="#">Islamic Books</a>
+                                <a class="dropdown-item" href="#">Urdu Stories</a>
+                                <a class="dropdown-item" href="#">English Books</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contect</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div class="logoimage">
+            <div class="row featurette">
+                <div class="col-md-5 ">
+                    <img src="image/09.jpg" width="200px" alt="...">
+                </div>
+                <div class="col-md-6">
+                    <h2><span class="text1">Hazrat ALI(rz)</span></h2>
+                    <p class="pera1">Books Inspire us, motivates us, encourage us and always make us see the right path,
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body">
+                                <div class="urdu">
+                                    <p id="p1"> لوگوں کے غلام مت بنو جب" <br>
+                                        "الله نے تمہیں آزاد پیدا کیا ہے<br>
+                                        حضرت علیؓ</p>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-info" onclick="copyToClipboard('#p1')"> <i
+                                            class="fa fa-clone"></i> Copy</button>
+                                </div>
+                                <br>
+                                <div>
+                                    <img src="hazart-ali-quotes/01.jpg" class="d-block w-100" alt="..."
+                                        height="300"><br>
+                                    <div class="icons">
+                                        <h3>
+                                            <a><i class="fa fa-whatsapp"></i></a>
+                                            <a> <i class="fa fa-facebook-f"></i></a>
+                                            <a><i class="fa fa-instagram"></i></a>
+                                            <a><i class="fa fa-twitter"></i></a>
+                                            <a><i class="fa fa-download ddbt"></i></a>
+                                        </h3>
+                                    </div>
+                                    <hr>
+                                </div>
+                              
+                                    <div class="english">
+                                        <p id="p2">Logo kay ghulam mat bno jab<br>
+                                            allah nay tumahay azad paida kya hai<br>
+                                            Hazrat ali (rz)
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-info" onclick="copyToClipboard('#p1')"> <i
+                                                class="fa fa-clone"></i> Copy</button>
+                                    </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body">
+                                <div class="urdu">
+                                    <p id="p1"> لوگوں کے غلام مت بنو جب " <br>
+                                         "الله نے تمہیں آزاد پیدا کیا ہے<br>
+                                        حضرت علیؓ</p>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-info" onclick="copyToClipboard('#p1')"> <i
+                                            class="fa fa-clone"></i> Copy</button>
+                                </div>
+                                <br>
+                                <div>
+                                    <img src="hazart-ali-quotes/02.jpg" class="d-block w-100" alt="..."
+                                        height="300"><br>
+                                    <div class="icons">
+                                        <h3>
+                                            <a><i class="fa fa-whatsapp"></i></a>
+                                            <a> <i class="fa fa-facebook-f"></i></a>
+                                            <a><i class="fa fa-instagram"></i></a>
+                                            <a><i class="fa fa-twitter"></i></a>
+                                            <a><i class="fa fa-download ddbt"></i></a>
+                                        </h3>
+                                    </div>
+                                    <hr>
+                                </div>
+                              
+                                    <div class="english">
+                                        <p id="p2">Logo kay ghulam mat bno jab<br>
+                                            allah nay tumahay azad paida kya hai<br>
+                                            Hazrat ali (rz)
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-info" onclick="copyToClipboard('#p1')"> <i
+                                                class="fa fa-clone"></i> Copy</button>
+                                    </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body">
+                                <div class="urdu">
+                                    <p id="p1">لوگوں کے غلام مت بنو جب "<br>
+                                         "الله نے تمہیں آزاد پیدا کیا ہے<br>
+                                        حضرت علیؓ</p>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-info" onclick="copyToClipboard('#p1')"> <i
+                                            class="fa fa-clone"></i> Copy</button>
+                                </div>
+                                <br>
+                                <div>
+                                    <img src="hazart-ali-quotes/03.jpg" class="d-block w-100" alt="..."
+                                        height="300"><br>
+                                    <div class="icons">
+                                        <h3>
+                                            <a><i class="fa fa-whatsapp"></i></a>
+                                            <a> <i class="fa fa-facebook-f"></i></a>
+                                            <a><i class="fa fa-instagram"></i></a>
+                                            <a><i class="fa fa-twitter"></i></a>
+                                            <a><i class="fa fa-download ddbt"></i></a>
+                                        </h3>
+                                    </div>
+                                    <hr>
+                                </div>
+                              
+                                    <div class="english">
+                                        <p id="p2">Logo kay ghulam mat bno jab<br>
+                                            allah nay tumahay azad paida kya hai<br>
+                                            Hazrat ali (rz)
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-info" onclick="copyToClipboard('#p1')"> <i
+                                                class="fa fa-clone"></i> Copy</button>
+                                    </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+        <!-- FOOTER -->
+        <footer class="container">
+            <p>© 2020 TrueWords </p>
+        </footer>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+        <script src="/docs/4.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
+            crossorigin="anonymous"></script>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
